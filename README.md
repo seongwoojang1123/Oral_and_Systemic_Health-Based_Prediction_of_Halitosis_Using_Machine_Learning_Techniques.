@@ -21,16 +21,16 @@ Key aspects include:
    . Contains clinical data used for training
 
 - 1_data_preprocessing.ipynb
-   . Data cleaning, SMOTE, label encoding
+   - Data cleaning, SMOTE, label encoding
 
 - 2_data_initial_analyze.ipynb
-   . EDA and class imbalance checks
+   - EDA and class imbalance checks
 
 - 3_Feature_Importance_Ranking.ipynb
-   . Permutation importance, SHAP, etc.
+   - Permutation importance, SHAP, etc.
 
 - 4_Model_Training_TEST.ipynb 
-  . Model training (XGBoost, TabTransformer, Stacking)
+  - Model training (XGBoost, TabTransformer, Stacking)
 
 - README.md
-  . This file. Provides an overview of the project and instructions for use.
+  - This file. Provides an overview of the project and instructions for use.
