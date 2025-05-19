@@ -48,3 +48,13 @@ Key aspects include:
 
 SMOTE was used to handle **class imbalance**, and models were evaluated using both **10-Fold Cross-Validation (for AUROC with 95% CI)** and **5-Fold CV for DeLong’s test** to assess statistical significance between models.
 
+## Contact
+
+For any inquiries or collaboration opportunities:
+
+- Yeon-Hee Lee: omod0209@gmail.com
+- SeongWoo Jang: mook8105@cuk.edu
+- Seonggwang Jeon: qq22512@hanyang.ac.kr
+
+## Acknowledgments
+- This work was supported by the Department of Orofacial Pain and Oral Medicine, Kyung Hee University Dental Hospital, and the Department of Convergence Information Studies, Korea Cyber University.
