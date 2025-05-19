@@ -14,3 +14,23 @@ Key aspects include:
 - Feature engineering from oral health data
 - Classical ML & Transformer-based model comparison
 - AUROC and p-value evaluation across 7 feature conditions
+
+## Repository Structure
+
+** DataSet/ 
+   - Contains clinical data used for training
+
+** 1_data_preprocessing.ipynb
+   - Data cleaning, SMOTE, label encoding
+
+** 2_data_initial_analyze.ipynb
+   - EDA and class imbalance checks
+
+** 3_Feature_Importance_Ranking.ipynb
+   - Permutation importance, SHAP, etc.
+
+** 4_Model_Training_TEST.ipynb 
+  - Model training (XGBoost, TabTransformer, Stacking)
+
+** README.md
+  - This file. Provides an overview of the project and instructions for use.
