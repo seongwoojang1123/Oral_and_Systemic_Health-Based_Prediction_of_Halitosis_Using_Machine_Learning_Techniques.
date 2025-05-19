@@ -17,20 +17,20 @@ Key aspects include:
 
 ## Repository Structure
 
-** DataSet/ 
-   - Contains clinical data used for training
+- DataSet/ 
+   . Contains clinical data used for training
 
-** 1_data_preprocessing.ipynb
-   - Data cleaning, SMOTE, label encoding
+- 1_data_preprocessing.ipynb
+   . Data cleaning, SMOTE, label encoding
 
-** 2_data_initial_analyze.ipynb
-   - EDA and class imbalance checks
+- 2_data_initial_analyze.ipynb
+   . EDA and class imbalance checks
 
-** 3_Feature_Importance_Ranking.ipynb
-   - Permutation importance, SHAP, etc.
+- 3_Feature_Importance_Ranking.ipynb
+   . Permutation importance, SHAP, etc.
 
-** 4_Model_Training_TEST.ipynb 
-  - Model training (XGBoost, TabTransformer, Stacking)
+- 4_Model_Training_TEST.ipynb 
+  . Model training (XGBoost, TabTransformer, Stacking)
 
-** README.md
-  - This file. Provides an overview of the project and instructions for use.
+- README.md
+  . This file. Provides an overview of the project and instructions for use.
