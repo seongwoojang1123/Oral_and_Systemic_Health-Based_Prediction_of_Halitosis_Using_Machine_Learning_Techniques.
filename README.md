@@ -18,7 +18,7 @@ Key aspects include:
 ## Repository Structure
 
 - DataSet/ 
-   . Contains clinical data used for training
+   - Contains clinical data used for training
 
 - 1_data_preprocessing.ipynb
    - Data cleaning, SMOTE, label encoding
@@ -34,3 +34,17 @@ Key aspects include:
 
 - README.md
   - This file. Provides an overview of the project and instructions for use.
+ 
+##  Models Used
+
+- **Classical Machine Learning**
+  - XGBoost, CatBoost, SVM, Random Forest
+- **Neural Network Models**
+  - TabNet
+- **Transformer-Based Models**
+  - TabTransformer, FT-Transformer, SAINT
+- **Ensemble**
+  - Stacking (Meta-Learner: Logistic Regression)
+
+SMOTE was used to handle **class imbalance**, and models were evaluated using both **10-Fold Cross-Validation (for AUROC with 95% CI)** and **5-Fold CV for DeLong’s test** to assess statistical significance between models.
+
